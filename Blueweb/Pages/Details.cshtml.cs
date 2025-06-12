@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Blueweb.Models;
-using Blueweb.Models.Blueweb.Models;
 using Blueweb.Data;
 
 namespace Blueweb.Pages.Details

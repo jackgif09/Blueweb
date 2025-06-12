@@ -15,11 +15,11 @@ namespace Blueweb.Pages
             _context = context;
         }
 
-        public IList<UsersPage> Users { get; set; }
+        public IList<User> Users { get; set; } = new List<User>();
 
         public void OnGet()
         {
-            Users = (IList<UsersPage>)_context.Users.ToList();
+            Users = _context.Users.ToList();
         }
     }
 }
