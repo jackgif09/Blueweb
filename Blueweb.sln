@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueweb", "Blueweb\Blueweb.csproj", "{F46D0DA7-102B-4EF7-BA20-2C723A1B98EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46D0DA7-102B-4EF7-BA20-2C723A1B98EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46D0DA7-102B-4EF7-BA20-2C723A1B98EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46D0DA7-102B-4EF7-BA20-2C723A1B98EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46D0DA7-102B-4EF7-BA20-2C723A1B98EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F56DB86-6274-4E2B-A1FC-D22075C4CA88}
+	EndGlobalSection
+EndGlobal

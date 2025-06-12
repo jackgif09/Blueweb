@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Blueweb</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="bg-cream text-dark">
+
+    <!-- Header / Navbar -->
+    <header class="bg-retro-blue shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <a class="navbar-brand fw-bold text-white fs-3" asp-page="/Index" style="font-family: 'DM Serif Display', serif;">
+                ✦ Blueweb
+            </a>
+            <nav>
+                <a asp-page="/UsersPage" class="nav-link-custom">Users</a>
+                <a asp-page="/Privacy" class="nav-link-custom">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-5" style="max-width: 960px; margin: 0 auto; min-height: calc(100vh - 220px);">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4 bg-retro-blue text-white" style="font-family: 'IBM Plex Mono', monospace; font-size: 0.9rem;">
+        © 2025 <strong>Blueweb</strong> — <a asp-page="/Privacy" class="text-light text-decoration-underline">Privacy</a>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
